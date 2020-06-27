@@ -1,5 +1,6 @@
 import unittest
-from Calculator.Calculator import Calculator
+from Calculator import Calculator
+
 
 class MyTestCase(unittest.TestCase):
 
@@ -7,6 +8,6 @@ class MyTestCase(unittest.TestCase):
         calculator = Calculator()
         self.assertIsInstance(calculator, Calculator)
 
+
 if __name__ == '__main__':
     unittest.main()
-
